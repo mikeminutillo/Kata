@@ -5,7 +5,8 @@
 
 *USAGE:* _kata.exe kataName_
 
-This will
+This will:
+
   * Create a new project and solution with an xUnit reference
   * Open this new solution in Visual Studio 2010
   * Monitor the folder for changes
