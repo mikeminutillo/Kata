@@ -1,0 +1,4 @@
+*.suo
+*.user
+Source/bin/*
+Source/obj/*
