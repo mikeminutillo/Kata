@@ -1,0 +1,7 @@
+﻿
+namespace Kata
+{
+    interface Message
+    {
+    }
+}

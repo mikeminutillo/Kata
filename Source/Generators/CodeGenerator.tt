@@ -1,0 +1,32 @@
+﻿<#@ template language="C#" #>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Xunit;
+using Xunit.Extensions;
+
+namespace Kata<#=KataName#>
+{
+    public class Kata<#=KataName#>
+    {
+	    public Kata<#=KataName#>Class SystemUnderTest;
+
+	    public Kata<#=KataName#>()
+		{
+		  SystemUnderTest = new Kata<#=KataName#>Class();
+		}
+
+        [Fact]
+        public void FirstFact()
+        {
+            
+        }
+    }
+
+	public class Kata<#=KataName#>Class
+	{
+	
+	}
+}
